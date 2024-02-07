@@ -1,0 +1,30 @@
+
+.custom-my-list {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.custom-header {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-about-me-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    line-height: 2;
+    font-size: larger;
+}
+
+.custom-about-me-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.custom-about-me-picture {
+    max-width: 43%;
+}
