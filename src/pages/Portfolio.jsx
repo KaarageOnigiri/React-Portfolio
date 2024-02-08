@@ -1,5 +1,5 @@
 import Project from '../components/Project.jsx';
-import data from '../utils/fetchProjects';
+// const fetchData =  require('../utils/fetchProjects');
 
 export default function Portfolio() {
     return (
@@ -8,8 +8,8 @@ export default function Portfolio() {
             <section>
                 <div className="custom-portfolio-box">
                     <ul>
-                        {data}
-                        <Project data={data} />
+                        {/* {data} */}
+                        {/* <Project data={data} /> */}
                     </ul>
                 </div>
             </section>

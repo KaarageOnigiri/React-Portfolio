@@ -1,5 +1,5 @@
 
-export const data = () => {
+const fetchData = () => {
     fetch('https://api.github.com')
         .then(response => response.json())
         .then(data => {
@@ -9,3 +9,4 @@ export const data = () => {
         .catch(error => console.error(error));
 }
 
+module.exports = fetchData;
