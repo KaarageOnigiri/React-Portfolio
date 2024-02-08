@@ -1,4 +1,6 @@
 
-export default function Header() {
-    
+export default function Header(prop) {
+    return (
+
+    )
 }
